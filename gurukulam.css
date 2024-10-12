@@ -1,0 +1,138 @@
+body {
+    font-family: 'Garamond', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* light gray background */
+    background-size: cover;
+    background-position: center;
+  }
+
+  .header {
+    background-color: #efcf51;
+    color: #484646;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 30%;
+  }
+    
+  .navbar {
+    background-color: #2c2a2a;
+    color: #fff;
+    /* padding: 1rem;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ddd; */
+  }
+  
+  .navbar-brand {
+    margin-right: 2rem;
+  }
+  
+  .navbar-brand img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .nav-item {
+    margin-right: 2rem;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-align: end;
+  }
+  
+  .nav-link {
+    color: #333;
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #337ab7;
+  }
+  
+  .nav-link.active {
+    color: #337ab7;
+  }
+  
+  .navbar-toggler {
+    border: none;
+    padding: 0.5rem;
+    background-color: #337ab7;
+    color: #fff;
+  }
+  
+  .navbar-toggler-icon {
+    font-size: 1.5rem;
+  }
+  .carousel {
+    position: relative;
+    width: 800px; /* adjust the width as needed */
+    margin: 40px auto;
+  }
+  
+  .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel-item {
+    position: relative;
+    display: none;
+    width: 100%;
+  }
+  
+  .carousel-item.active {
+    display: block;
+  }
+  
+  .carousel-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .carousel-prev, .carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .carousel-prev {
+    left: -20px;
+    color: #2c2a2a;
+  }
+  
+  .carousel-next {
+    right: -20px;
+    color: #2c2a2a;
+
+    
+  }
+  .footer {
+    background-color: #545151;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    clear: both;
+  }
+  
+  .footer h3 {
+    margin-top: 0;
+  }
+  
+  .footer p {
+    margin-bottom: 10px;
+  }
